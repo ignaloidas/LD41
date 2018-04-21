@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Singleplayer.gd" type="Script" id=1]
+[ext_resource path="res://FightGUI.tscn" type="PackedScene" id=2]
+
+[node name="Singleplayer" type="Node"]
+
+script = ExtResource( 1 )
+
+[node name="Fight" parent="." index="0" instance=ExtResource( 2 )]
+
+WIN_POINTS = 300
+
+[node name="AIClickTimer" type="Timer" parent="." index="1"]
+
+process_mode = 1
+wait_time = 4096.0
+one_shot = false
+autostart = false
+
+[connection signal="fight_start" from="Fight" to="." method="_on_Fight_fight_start"]
+
+[connection signal="next_turn" from="Fight" to="." method="_on_Fight_next_turn"]
+
+[connection signal="player_click" from="Fight" to="." method="_on_Fight_player_click"]
+
+[connection signal="timeout" from="AIClickTimer" to="." method="_on_AIClickTimer_timeout"]
+
+

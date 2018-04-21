@@ -2,14 +2,14 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Fight.png-acce0c8853cff4d2815ee0296eb3ed17.stex"
+path="res://.import/fight.png-ef4589fde26a924fb96ffc5f1d443d51.stex"
 
 [deps]
 
-source_file="res://assets/Fight.png"
+source_file="res://assets/fight.png"
 source_md5="928a1e706a432eef12aa2ffbc3a1293e"
 
-dest_files=[ "res://.import/Fight.png-acce0c8853cff4d2815ee0296eb3ed17.stex" ]
+dest_files=[ "res://.import/fight.png-ef4589fde26a924fb96ffc5f1d443d51.stex" ]
 dest_md5="9624c16f0e8bd5169e9c9b72ef0f2167"
 
 [params]

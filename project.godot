@@ -11,7 +11,7 @@ config_version=3
 [application]
 
 config/name="Ludum Dare 41"
-run/main_scene="res://GUI.tscn"
+run/main_scene="res://Master.tscn"
 config/icon="res://icon.png"
 
 [display]
@@ -20,7 +20,18 @@ window/size/width=720
 window/size/height=960
 window/size/resizable=false
 
+[input]
+
+fight_click_1=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":90,"unicode":0,"echo":false,"script":null)
+ ]
+fight_click_2=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":88,"unicode":0,"echo":false,"script":null)
+ ]
+fight_click_3=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":75,"unicode":0,"echo":false,"script":null)
+ ]
+fight_click_4=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":76,"unicode":0,"echo":false,"script":null)
+ ]
+
 [rendering]
 
-environment/default_clear_color=Color( 0, 0, 0, 1 )
+environment/default_clear_color=Color( 0, 1, 1, 1 )
 environment/default_environment="res://default_env.tres"
