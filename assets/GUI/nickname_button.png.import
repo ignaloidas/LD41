@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/index.png-0c78d14d192abe5f22f8c25928ca1ab8.stex"
+path="res://.import/nickname_button.png-c8ab8829778cf06251ccf22681cf6821.stex"
 
 [deps]
 
-source_file="res://docs/index.png"
-source_md5="299da75e49286e888450cf32a391ba86"
+source_file="res://assets/GUI/nickname_button.png"
+source_md5="32c769a5ba5117ff07883eab8f3ba865"
 
-dest_files=[ "res://.import/index.png-0c78d14d192abe5f22f8c25928ca1ab8.stex" ]
-dest_md5="8d750247939fc85ff59e34547119dea2"
+dest_files=[ "res://.import/nickname_button.png-c8ab8829778cf06251ccf22681cf6821.stex" ]
+dest_md5="ca366adce61f4949c3559f4be7cece4b"
 
 [params]
 

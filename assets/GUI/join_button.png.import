@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/index.png-0c78d14d192abe5f22f8c25928ca1ab8.stex"
+path="res://.import/join_button.png-0c3625f665c9b07fc1cb02de21440341.stex"
 
 [deps]
 
-source_file="res://docs/index.png"
-source_md5="299da75e49286e888450cf32a391ba86"
+source_file="res://assets/GUI/join_button.png"
+source_md5="14ae7066f537432b8bb9a950a16a4383"
 
-dest_files=[ "res://.import/index.png-0c78d14d192abe5f22f8c25928ca1ab8.stex" ]
-dest_md5="8d750247939fc85ff59e34547119dea2"
+dest_files=[ "res://.import/join_button.png-0c3625f665c9b07fc1cb02de21440341.stex" ]
+dest_md5="4bfecbee4f2060865f87b219a25ae4d5"
 
 [params]
 

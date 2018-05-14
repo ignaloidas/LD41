@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Multiplayer.gd" type="Script" id=1]
+[ext_resource path="res://NickSetup.tscn" type="PackedScene" id=2]
+
+[node name="Multiplayer" type="Node" index="0"]
+
+script = ExtResource( 1 )
+
+[node name="NickSetup" parent="." index="0" instance=ExtResource( 2 )]
+
+[node name="NameUpdateTimer" type="Timer" parent="." index="1"]
+
+process_mode = 1
+wait_time = 5.0
+one_shot = true
+autostart = false
+
+[connection signal="nick_enter" from="NickSetup" to="." method="_on_nick_enter"]
+
+[connection signal="timeout" from="NameUpdateTimer" to="." method="_on_NameUpdateTimer_timeout"]
+
+
